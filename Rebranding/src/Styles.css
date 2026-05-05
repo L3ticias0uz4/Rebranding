@@ -1,0 +1,72 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 80px;
+  min-height: 100vh;
+
+  background: radial-gradient(circle at right, #1a1446, #050816 60%);
+}
+
+.hero-content {
+  max-width: 550px;
+}
+
+.tag {
+  color: #a855f7;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero h1 span {
+  color: #a855f7;
+}
+
+.description {
+  margin-top: 20px;
+  color: #9ca3af;
+  font-size: 16px;
+}
+
+/* BOTÕES */
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary {
+  background: linear-gradient(45deg, #7c3aed, #9333ea);
+  border: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+.btn-outline {
+  border: 1px solid #6b7280;
+  padding: 14px 28px;
+  border-radius: 10px;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 450px;
+  filter: drop-shadow(0 0 40px rgba(124, 58, 237, 0.4));
+}
