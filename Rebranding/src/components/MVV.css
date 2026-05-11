@@ -1,0 +1,44 @@
+.mvv-section {
+  padding: 100px 80px;
+  background: #050816;
+}
+
+.mvv-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.mvv-card {
+  background: linear-gradient(145deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+  border: 1px solid rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 40px 32px;
+  transition: 0.3s;
+}
+
+.mvv-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(168, 85, 247, 0.5);
+  box-shadow: 0 0 30px rgba(124, 58, 237, 0.2);
+}
+
+.mvv-icon {
+  width: 52px;
+  height: 52px;
+  margin-bottom: 20px;
+}
+
+.mvv-card h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: white;
+}
+
+.mvv-card p {
+  color: #9ca3af;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.65;
+}
