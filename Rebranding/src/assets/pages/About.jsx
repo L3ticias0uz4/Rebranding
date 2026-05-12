@@ -1,5 +1,5 @@
 import '../styles/About.css';
-import Grupo from '../assets/images/Grupo.svg';
+import GrupoFoto from '../assets/images/GrupoFoto.svg';
 
 function About() {
   return (
@@ -18,7 +18,7 @@ function About() {
         </p>
       </div>
       <div className="about-image">
-        <img src={Grupo.svg} alt="Equipe Suporte de Domingo" />
+        <img src={GrupoFoto} alt="Equipe Suporte de Domingo" />
       </div>
     </section>
   );
