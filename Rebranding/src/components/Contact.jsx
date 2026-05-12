@@ -25,7 +25,7 @@ function Contact() {
 
       <div className="contact-grid">
      
-     
+
         <div className="contact-form-card">
           <div className="form-group">
             <label>Nome</label>
