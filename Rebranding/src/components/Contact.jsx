@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import '../styles/Contact.css';
-import phoneIcon from '../assets/Icons/phone.svg';
-import emailIcon from '../assets/Icons/email.svg';
-import locationIcon from '../assets/Icons/location.svg';
+import phoneIcon from '../assets/Icons/Telefone.svg';
+import emailIcon from '../assets/Icons/Email.svg';
+import locationIcon from '../assets/Icons/Localização.svg';
 
 function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
@@ -24,7 +24,8 @@ function Contact() {
       </p>
 
       <div className="contact-grid">
-        {/* Form */}
+     
+     
         <div className="contact-form-card">
           <div className="form-group">
             <label>Nome</label>
@@ -60,13 +61,13 @@ function Contact() {
           </button>
         </div>
 
-        {/* Info */}
+    
         <div className="contact-info-card">
           <h3>Outras formas de contato</h3>
 
           <div className="contact-item">
             <div className="contact-icon">
-              <img src={phoneIcon} alt="Telefone" />
+              <img src={TelefoneIcon} alt="Telefone" />
             </div>
             <div className="contact-item-text">
               <label>Telefone</label>
@@ -76,7 +77,7 @@ function Contact() {
 
           <div className="contact-item">
             <div className="contact-icon">
-              <img src={emailIcon} alt="E-mail" />
+              <img src={EmailIcon} alt="E-mail" />
             </div>
             <div className="contact-item-text">
               <label>E-mail</label>
@@ -88,7 +89,7 @@ function Contact() {
 
           <div className="contact-item">
             <div className="contact-icon">
-              <img src={locationIcon} alt="Endereço" />
+              <img src={localizaçãoIcon} alt="Endereço" />
             </div>
             <div className="contact-item-text">
               <label>Endereço</label>
