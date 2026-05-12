@@ -11,7 +11,6 @@ function Contact() {
     setForm({ ...form, [e.target.name]: e.target.value });
 
   const handleSubmit = () => {
-    // integre aqui com seu backend ou EmailJS
     alert('Mensagem enviada!');
     setForm({ name: '', email: '', message: '' });
   };
